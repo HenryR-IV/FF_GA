@@ -4,7 +4,7 @@
 `define RSLT 2
 
 // This testbench is not really useful without the supporting C++ programs 
-// But, they do not work on blackhawk since they require other libraries
+// those require opengl libraries
 
 module render_test;
 

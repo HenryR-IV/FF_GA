@@ -1,0 +1,48 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version V-2023.12-SP2_Full64; Runtime version V-2023.12-SP2_Full64;  Dec 10 20:55 2024
+Expected: 
+00010000       00000000       00000000       012c0000
+00000000       00010000       00000000       012c0000
+00000000       00000000       fffffffa       00000000
+00000000       00000000       00000000       00010000
+
+Received: 
+00010000       00000000       00000000       012c0000
+00000000       00010000       00000000       012c0000
+00000000       00000000       fffffffa       00000000
+00000000       00000000       00000000       00010000
+
+Expected: 
+00010000       00000000       00000000       012d0000
+00000000       00010000       00000000       012e0000
+00000000       00000000       fffffffa       ffffffee
+00000000       00000000       00000000       00010000
+
+Received: 
+00010000       00000000       00000000       012d0000
+00000000       00010000       00000000       012e0000
+00000000       00000000       fffffffa       ffffffee
+00000000       00000000       00000000       00010000
+
+Expected: 
+012e0000       00000000       00000000       00000000
+01300000       00000000       00000000       00000000
+ffffffdc       00000000       00000000       00000000
+00010000       00000000       00000000       00000000
+
+Received: 
+012e0000       00000000       00000000       00000000
+01300000       00000000       00000000       00000000
+ffffffdc       00000000       00000000       00000000
+00010000       00000000       00000000       00000000
+All Tests Passed
+
+$finish called from file "../src/FF_GA_tb.sv", line 214.
+$finish at simulation time              6930000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 6930000 ps
+CPU Time:      0.430 seconds;       Data structure size:  16.8Mb
+Tue Dec 10 20:55:11 2024
