@@ -5,16 +5,12 @@
 
 ### Result Example
 
-![pika dot](img/pika.png)
-
-![pika line](img/pika2.png)
-
-### Block Diagrams
-
-![Overall](img/in_out_schematic.png)
-
-![MACx](img/macx_schematic.png)
+![pika dot](img/pika.png) | ![pika line](img/pika2.png)
 
 ### Datapath Diagram
 
 ![datapath](img/ffga.png)
+
+### Block Diagrams
+
+![Overall](img/in_out_schematic.png) | ![MACx](img/macx_schematic.png)
