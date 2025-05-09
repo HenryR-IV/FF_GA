@@ -20,7 +20,7 @@ Has 4 states of operation:
   - resets MACx array for next operation
   - automatically entered after a read result operation
 
-It was synthesized using a 90nm standard cell library.
+It was synthesized using a 90nm standard cell library and achieved a maximum clock frequency ~4.1 MHz.
 
 ### Result Example
 These result are not direct output by the testbench. The first image with only the dots is achieved by using effectively a put pixel command for each result from the testbench
@@ -36,7 +36,9 @@ glScale(5,5,5)
 ```
 see [Render Testbench](src/render_test.sv)  
 
-<img src="img/pika.png" width="400"> <img src="img/pika2.png"  width="400">
+<img src="img/pika.png" width="400"> <img src="img/pika2.png"  width="400">  
+412 triangles total  
+Simulated time: 0.62 ms
 
 ### Datapath Diagram
 
