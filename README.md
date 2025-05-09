@@ -24,7 +24,7 @@ It was synthesized using a 90nm standard cell library.
 
 ### Result Example
 These result are not direct output by the testbench. The first image with only the dots is achieved by using effectively a put pixel command for each result from the testbench
-which is the most direct representation of the output of the design. The second image does some extra work to draw output as triangles (see [stl_test](stl-test)).   
+which is the most direct representation of the output of the design. The second image does some extra work to draw output as triangles (see [stl_test](stl_test)).   
 Equivalent OpenGL operations:    
 ```
 glViewport(0,0,600,600)
